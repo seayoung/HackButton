@@ -1,0 +1,10 @@
+<head>
+</head>
+<body>
+    <div>
+        <form method="POST">{% csrf_token %}
+        {{ form.as_p }}
+        <input id="submit" type="submit" value="HACK">
+        </form>
+    <div>
+</body>
